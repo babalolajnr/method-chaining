@@ -1,4 +1,4 @@
-class Query {
+export class Query {
     private statement: string = "";
 
     select(column?: string, columns?: string[]): this {
